@@ -4,8 +4,6 @@ rvm:
 cache:
 - bundler
 before_install:
-- bundle lock --add-platform ruby
-- bundle lock --add-platform x86_64-linux
 - gem install -v 2.0.1 bundler
 before_script:
 - bundle exec rake db:create

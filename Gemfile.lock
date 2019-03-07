@@ -184,7 +184,9 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
+  ruby
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
