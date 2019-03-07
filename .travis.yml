@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+  - 2.3.3
+cache:
+- bundler
+before_script:
+- bundle exec rake db:create
+- bundle exec rake db:migrate
+- bundle exec rake assets:precompile
+deploy:
+  provider: heroku
+  api_key:
+    secure: e2d93b97-f6e9-472d-9e65-435df34b0840
+  app: potential-potato
+  on:
+    repo: admo-1/potential-potato
