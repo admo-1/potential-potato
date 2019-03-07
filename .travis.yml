@@ -4,7 +4,7 @@ rvm:
 cache:
 - bundler
 before_install:
-- gem install -v 2.0.1 bundler --no-rdoc --no-ri
+- gem install -v 2.0.1 bundler
 before_script:
 - bundle exec rake db:create
 - bundle exec rake db:migrate
