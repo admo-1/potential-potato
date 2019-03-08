@@ -1,9 +1,0 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  Name: MyString
-  Birthday: 2019-03-07
-
-two:
-  Name: MyString
-  Birthday: 2019-03-07
