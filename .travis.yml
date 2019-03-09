@@ -10,4 +10,4 @@ deploy:
   api_key: 
     secure: e2d93b97-f6e9-472d-9e65-435df34b0840
   app: potential-potato
-  run: "rails db:migrate"
+  run: "rake db:migrate"
