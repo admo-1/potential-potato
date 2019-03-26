@@ -11,3 +11,9 @@ two:
   Description: MyString
   Price: 
   Image: MyString
+
+three:
+  Name: MyString
+  Description: MyString
+  Price: 
+  Image: MyString
